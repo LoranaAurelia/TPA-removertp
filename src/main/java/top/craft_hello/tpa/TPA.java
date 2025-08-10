@@ -53,7 +53,6 @@ public final class TPA extends JavaPlugin {
         Objects.requireNonNull(this.getCommand("tpa")).setExecutor(new Tpa());
         Objects.requireNonNull(this.getCommand("tphere")).setExecutor(new TpHere());
         Objects.requireNonNull(this.getCommand("tpall")).setExecutor(new TpAll());
-        Objects.requireNonNull(this.getCommand("rtp")).setExecutor(new Rtp());
         Objects.requireNonNull(this.getCommand("tplogout")).setExecutor(new TpLogout());
         Objects.requireNonNull(this.getCommand("tpaccept")).setExecutor(new TpAccept());
         Objects.requireNonNull(this.getCommand("tpdeny")).setExecutor(new TpDeny());
@@ -74,7 +73,6 @@ public final class TPA extends JavaPlugin {
         Objects.requireNonNull(this.getCommand("tpa")).setTabCompleter(new TpaTabCompleter());
         Objects.requireNonNull(this.getCommand("tphere")).setTabCompleter(new TpHereTabCompleter());
         Objects.requireNonNull(this.getCommand("tpall")).setTabCompleter(new TpAllTabCompleter());
-        Objects.requireNonNull(this.getCommand("rtp")).setTabCompleter(new EmptyListTabCompleter());
         Objects.requireNonNull(this.getCommand("tplogout")).setTabCompleter(new TpLogoutTabCompleter());
         Objects.requireNonNull(this.getCommand("tpaccept")).setTabCompleter(new EmptyListTabCompleter());
         Objects.requireNonNull(this.getCommand("tpdeny")).setTabCompleter(new EmptyListTabCompleter());
