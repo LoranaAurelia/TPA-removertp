@@ -43,9 +43,6 @@ permissions:
   tpa.tphere:
     default: false
     description: "可使用 /tphere 命令请求指定玩家传送到你的位置（默认关闭权限检查）"
-  tpa.rtp:
-    default: false
-    description: "可使用 /rtp 命令随机在一定范围内传送（默认关闭权限检查）"
   tpa.denys:
     default: false
     description: "可使用 /denys 管理黑名单"
@@ -90,9 +87,6 @@ commands:
   tpall:
     usage: /tpall [player/warp/spawn] [玩家名称/传送点名称]
     description: 强制将所有在线玩家传送到目标位置（如果不加参数默认传送到使用者身边）
-  rtp:
-    usage: /rtp
-    description: 随机传送
   tplogout:
     usage: /tplogout <玩家名称>
     description: 传送到该玩家最后一次下线的位置
